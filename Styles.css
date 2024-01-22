@@ -1,0 +1,85 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    padding-top: 56px; /* Adjust this value based on your navbar height */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: grey;
+  /* You can customize other styles as needed */
+}
+
+/* Custom styles for carousel control text */
+.carousel-control-prev,
+.carousel-control-next {
+  color: grey;
+  /* You can customize other styles as needed */
+}
+
+.navbar{
+    background-color:rgba(128, 128, 128, 1)
+}
+
+.corazon{
+    color:rgb(244, 6, 6)
+}
+
+.corazon:hover{
+    color: pink;
+    font-size: 50px;
+}
+
+#Fotos h5{
+    color: rgb(229, 10, 46);
+    font-weight: bold;
+}
+
+#Fotos p{
+    color: rgb(18, 18, 243);
+    font-weight:900;
+    font-style: underline;
+}
+
+#Fotos h1{
+    color: rgb(235, 89, 198);
+}
+
+#rockabily{
+    width: 100vw;
+    height: 100vh; 
+    border: 4px rgba(80, 81, 105, 0.708) solid; 
+    border-radius: 200px; 
+    box-shadow: 10px 10px 100px white;
+}
+
+#rockabily:hover{
+    border: 4px rgba(153, 140, 238, 0.708) solid; 
+    box-shadow: 10px 10px 100px rgb(216, 187, 187); 
+}
+
+.card-img {
+    object-fit: cover; 
+    height: 200px;
+    width: 100%;
+}
+
+.gradient-background {
+    background: linear-gradient(263deg,#8495a1,#88c9f5,#56a4db);
+    background-size: 180% 180%;
+    animation: gradient-animation 12s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }

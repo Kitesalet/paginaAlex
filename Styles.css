@@ -12,6 +12,10 @@ body{
   /* You can customize other styles as needed */
 }
 
+h1:hover{
+  color: violet;
+}
+
 /* Custom styles for carousel control text */
 .carousel-control-prev,
 .carousel-control-next {

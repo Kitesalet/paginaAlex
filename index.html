@@ -12,11 +12,18 @@
     <title>- Alex -</title>
 </head>
 <body class="radient-background">
-    <audio controls id="audio" autoplay class="form-control">
+  <div id="y">
+    <h1 class="text-primary text-center">Dale play para entrar al Misterioso Mundo Del Señor Amor Alex</h1>  
+  <audio controls id="audio" autoplay class="form-control">
         <source src="mp3/Dreamscape but it's low quality.mp3" type="audio/mp3">
         Tu navegador no soporta el elemento de audio.
-      </audio> 
-    <nav class="navbar navbar-expand-lg fixed-top">
+      </audio>
+      <img class="form-control" style="height: 700px" src="images/200w.gif" alt="">
+    </div>
+  
+
+      <div class="d-none" id="bod">
+        <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><span class="text-light">SEÑOR</span><span style="color: aqua;">PAPI</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -234,7 +241,18 @@
         </h5>
         <p class="text-center m-0"><a href="https://www.linkedin.com/in/imanol-echazarreta-a40427a6/">Imanol Echazarreta</a> 2024 - Todos los derechos reservados</p>
     </footer>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-</body>
+  </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script>
+
+      document.getElementById('audio').addEventListener('play', function(){
+        console.log("ss");
+        document.getElementById('bod').classList.remove('d-none');
+        document.getElementById('y').classList.add('d-none');
+      });
+
+    </script>
+  </body>
 </html>
